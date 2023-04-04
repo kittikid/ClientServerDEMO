@@ -7,38 +7,33 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen">
 
-    <Window.Resources>
-        <DataTemplate x:Key="listTemplate">
-            <StackPanel Margin="5">
-                <!--<Image Width="100" Height="75" Source="{Binding Path=ImagePath}" />-->
-                <TextBlock FontSize="16" Text="{Binding Path=Product}" HorizontalAlignment="Center" />
-                <!--<TextBlock FontSize="16" Text="{Binding Path=Company}" HorizontalAlignment="Center" />-->
-            </StackPanel>
-        </DataTemplate>
-        <ItemsPanelTemplate x:Key="listPanelTemplate">
-            <WrapPanel />
-        </ItemsPanelTemplate>
-    </Window.Resources>
 
     <Grid ShowGridLines="True">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="50"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="50"/>
+            <RowDefinition Height="30"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="30" />
         </Grid.RowDefinitions>
 
-        <StackPanel Grid.Column="1">
+        <StackPanel Grid.Column="0" Grid.Row="0" HorizontalAlignment="Left">
             <Button x:Name="BackAuthButton" Width="100" Height="30" Content="Back" Click="BackAuthButton_Click"/>
         </StackPanel>
 
-        <ListBox Grid.Column="1" Grid.Row="1" x:Name="productList"
-                 ItemTemplate="{StaticResource listTemplate}"
-                 ItemsPanel="{StaticResource listPanelTemplate}"
-                 SelectionChanged="SelectionChanged"
-                 ScrollViewer.HorizontalScrollBarVisibility="Disabled" />
+        <ListBox x:Name="productList" Grid.Column="1" Grid.Row="1">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <DockPanel Margin="5" Background="{Binding Background}">
+                        <!--<Image Width="100" Height="75" Source="{Binding Path=ImagePath}" />-->
+                        <Image Width="100" Height="75" Source="{Binding ProductPhoto}" />
+                        <TextBlock FontSize="16" Text="{Binding ProductDescription}" HorizontalAlignment="Center" />
+                        <TextBlock FontSize="16" Text="{Binding ProductCategory}" HorizontalAlignment="Center" />
+                    </DockPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
 
     </Grid>
 </Window>

@@ -21,3 +21,27 @@ D:\4ИС2\NUZHIN\DEMO2\Демоэкзамен (22.06.2022)\App\WpfApp\WpfApp\bin
 D:\4ИС2\NUZHIN\DEMO2\Демоэкзамен (22.06.2022)\App\WpfApp\WpfApp\bin\Debug\EntityFramework.SqlServer.xml
 D:\4ИС2\NUZHIN\DEMO2\Демоэкзамен (22.06.2022)\App\WpfApp\WpfApp\obj\Debug\WpfApp_Content.g.cs
 D:\4ИС2\NUZHIN\DEMO2\Демоэкзамен (22.06.2022)\App\WpfApp\WpfApp\obj\Debug\WpfApp.csproj.CopyComplete
+D:\4is2\NUZHIN\ClientServerDEMO-main\WpfApp\bin\Debug\WpfApp.exe.config
+D:\4is2\NUZHIN\ClientServerDEMO-main\WpfApp\bin\Debug\WpfApp.exe
+D:\4is2\NUZHIN\ClientServerDEMO-main\WpfApp\bin\Debug\WpfApp.pdb
+D:\4is2\NUZHIN\ClientServerDEMO-main\WpfApp\bin\Debug\EntityFramework.dll
+D:\4is2\NUZHIN\ClientServerDEMO-main\WpfApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\4is2\NUZHIN\ClientServerDEMO-main\WpfApp\bin\Debug\EntityFramework.xml
+D:\4is2\NUZHIN\ClientServerDEMO-main\WpfApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\4is2\NUZHIN\ClientServerDEMO-main\WpfApp\obj\Debug\WpfApp.csprojAssemblyReference.cache
+D:\4is2\NUZHIN\ClientServerDEMO-main\WpfApp\obj\Debug\MainWindow.g.cs
+D:\4is2\NUZHIN\ClientServerDEMO-main\WpfApp\obj\Debug\Windows\AuthorizationWindow.g.cs
+D:\4is2\NUZHIN\ClientServerDEMO-main\WpfApp\obj\Debug\App.g.cs
+D:\4is2\NUZHIN\ClientServerDEMO-main\WpfApp\obj\Debug\WpfApp_Content.g.cs
+D:\4is2\NUZHIN\ClientServerDEMO-main\WpfApp\obj\Debug\WpfApp_MarkupCompile.cache
+D:\4is2\NUZHIN\ClientServerDEMO-main\WpfApp\obj\Debug\WpfApp_MarkupCompile.lref
+D:\4is2\NUZHIN\ClientServerDEMO-main\WpfApp\obj\Debug\MainWindow.baml
+D:\4is2\NUZHIN\ClientServerDEMO-main\WpfApp\obj\Debug\Windows\AuthorizationWindow.baml
+D:\4is2\NUZHIN\ClientServerDEMO-main\WpfApp\obj\Debug\WpfApp.g.resources
+D:\4is2\NUZHIN\ClientServerDEMO-main\WpfApp\obj\Debug\WpfApp.Properties.Resources.resources
+D:\4is2\NUZHIN\ClientServerDEMO-main\WpfApp\obj\Debug\WpfApp.csproj.GenerateResource.cache
+D:\4is2\NUZHIN\ClientServerDEMO-main\WpfApp\obj\Debug\WpfApp.csproj.CoreCompileInputs.cache
+D:\4is2\NUZHIN\ClientServerDEMO-main\WpfApp\obj\Debug\WpfApp.csproj.CopyComplete
+D:\4is2\NUZHIN\ClientServerDEMO-main\WpfApp\obj\Debug\WpfApp.exe
+D:\4is2\NUZHIN\ClientServerDEMO-main\WpfApp\obj\Debug\WpfApp.pdb
+D:\4is2\NUZHIN\ClientServerDEMO-main\WpfApp\obj\Debug\App.baml

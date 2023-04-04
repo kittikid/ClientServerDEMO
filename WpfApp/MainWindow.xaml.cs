@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfApp.Base;
 
 namespace WpfApp
 {
@@ -25,7 +27,9 @@ namespace WpfApp
             InitializeComponent();
             Database = new Base.CutlerysEntities();
             CreateList();
+
         }
+
 
         private Base.CutlerysEntities Database;
 
@@ -36,14 +40,24 @@ namespace WpfApp
             this.Close();
         }
 
-        private void SelectionChanged(object sender, RoutedEventArgs e) 
-        {
-
-        }
-
         private void CreateList()
         {
-            productList.Items.Add(Database.Product.Where(t => t.ProductDescription == "Набор столовых вилок Davinci, 20 см 6 шт."));
+            List<Base.Product> products = SourceCore.cutlerysEntities.Product.ToList();
+            List<ProductClass> productClasses = new List<ProductClass>();
+            SolidColorBrush brush = (SolidColorBrush)new BrushConverter().ConvertFrom("#ffff");
+            for (int i = 0; i < products.Count; i++)
+            {
+                productClasses.Add(new ProductClass()
+                {
+                    Background = products[i].ProductQuantityInStock > 0 ? (Brush)FindResource("Color1") : (Brush)FindResource("Color2"),
+                    ProductArticleNumber = products[i].ProductArticleNumber,
+                    ProductDescription = products[i].ProductDescription,
+                    ProductCategory = products[i].ProductCategory,
+                    //ProductQuantityStock = products[i].ProductQuantityInStock
+
+                }) ;
+            }
+            productList.ItemsSource = productClasses;
         }
     }
 }

@@ -4,6 +4,7 @@
              xmlns:local="clr-namespace:WpfApp"
              StartupUri="Windows/AuthorizationWindow.xaml">
     <Application.Resources>
-         
+        <Brush x:Key="Color1">#42f54e</Brush>
+        <Brush x:Key="Color2">#cae3cc</Brush>
     </Application.Resources>
 </Application>

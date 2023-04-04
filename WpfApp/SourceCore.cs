@@ -7,8 +7,8 @@ using WpfApp.Base;
 
 namespace WpfApp
 {
-    class SourceCore
+    public class SourceCore
     {
-        CutlerysEntities Database = new CutlerysEntities();
+        public static CutlerysEntities cutlerysEntities = new CutlerysEntities();
     }
 }

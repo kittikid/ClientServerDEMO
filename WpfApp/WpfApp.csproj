@@ -94,6 +94,7 @@
     <Compile Include="Base\User.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="ProductClass.cs" />
     <Compile Include="SourceCore.cs" />
     <Compile Include="Windows\AuthorizationWindow.xaml.cs">
       <DependentUpon>AuthorizationWindow.xaml</DependentUpon>
